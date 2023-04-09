@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+
+body{
+    font-family: "roboto, sans-serif";
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.containertopo{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+#titulo{
+    display: flex;    
+    justify-content: center;
+    
+    font-size: 42px;
+}
+
+
+
+
+.container{
+    margin-top: -180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+   
+   
+}
+
+.login:hover {
+    border: 2px solid blue;
+    transform: scale(1.03);
+    -webkit-box-shadow: -4px 16px 72px 19px rgba(33, 16, 224, 1);
+    -moz-box-shadow: -4px 16px 72px 19px rgba(33, 16, 224, 1);
+    box-shadow: -4px 16px 72px 19px rgba(33, 16, 224, 1);
+}
+
+.login {
+    
+    margin: 15px;
+    
+    
+}
+
+.usuario {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu:hover{
+    border: 2px solid blue;
+    transform: scale(1.03);
+    -webkit-box-shadow: -4px 16px 72px 19px rgba(33, 16, 224, 1);
+    -moz-box-shadow: -4px 16px 72px 19px rgba(33, 16, 224, 1);
+    box-shadow: -4px 16px 72px 19px rgba(33, 16, 224, 1);
+
+
+}
+
+
